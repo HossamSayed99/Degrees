@@ -107,9 +107,9 @@ def shortest_path(source, target):
             v = Node(neighbor[1], u, neighbor[0])
             if(not v in explored):
                 if neighbor[1] == target:
-                    path  = [(neighbor[0], neighbor[1])]
+                    path = [(neighbor[0], neighbor[1])]
                     parent = u
-                    while parent.state != source :
+                    while parent.state != source:
                         path.append((parent.action, parent.state))
                         parent = parent.parent
                     path.reverse()
