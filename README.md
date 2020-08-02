@@ -2,7 +2,7 @@
 
 ## A program that determines how many “degrees of separation” apart two actors are.
 
-The program finds the shortes paths between any two actors using the data provided in the datasets.
+This program finds the shortest path between any two actors using the data provided in the datasets using Breadth First Search (BFS).
 
 ## Usage
 
@@ -15,3 +15,5 @@ The program finds the shortes paths between any two actors using the data provid
     1: Emma Watson and Brendan Gleeson starred in Harry Potter and the Order of the Phoenix
     2: Brendan Gleeson and Michael Fassbender starred in Trespass Against Us
     3: Michael Fassbender and Jennifer Lawrence starred in X-Men: First Class
+    
+Information courtesy of IMDb. Used with permission.
